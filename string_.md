@@ -11,7 +11,7 @@ using namespace std;
 int main() {
     // Write C++ code here
     string mystr;
-    cin >> mystr;
+    getline (cin, mystr);
     cout << mystr;
     
     for(auto i = mystr.begin();i != mystr.end();++i){
