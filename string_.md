@@ -26,3 +26,15 @@ int main() {
 }
 
 ```
+
+### taking a string and store it in a vector
+
+```cpp
+
+    string mystr;   
+    
+    getline (cin, mystr);
+
+    vector<char> v4(mystr.begin(),mystr.end());
+    
+ ```
