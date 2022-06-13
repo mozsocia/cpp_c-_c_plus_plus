@@ -38,3 +38,34 @@ int main() {
     vector<char> v4(mystr.begin(),mystr.end());
     
  ```
+ 
+ 
+ ```cpp
+ 
+ 
+ #include<iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+      
+    string mystr;   
+    
+    string s3 = "mozdalif";
+    
+    getline (cin, mystr);
+
+    vector<char> v4;
+    v4.insert(v4.end(),mystr.begin(),mystr.end()); 
+    
+    v4.insert(v4.end(),s3.begin(),s3.end());
+    
+    for(auto x: v4){
+        cout << x << " ";
+    }
+               
+    
+    return 0;
+}
+```
