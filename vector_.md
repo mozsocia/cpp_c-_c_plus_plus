@@ -28,14 +28,29 @@ int main()
     for (auto i = g1.begin(); i != g1.end(); ++i){
       cout << *i << " ";
     }
+    
+    
+    
+    
+     for (auto i : g1) {
+        cout << i << "  ";
+    }
   
      for (int i : g1) {
         cout << i << "  ";
     }
+    
+    
+    
   
     for (const int& i : vector2) {
       cout << i << "  ";
+    }    
+   
+    for (const auto& i : vector2) {
+      cout << i << "  ";
     }
+  
   
   
   
